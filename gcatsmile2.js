@@ -76,7 +76,7 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm1/jamp.js'], function(APIConstr
 
 		targetCats :  [
 				{
-				nameForLogging : 'BMN',  //Will be used in the logging
+				nameForLogging : 'BM',  //Will be used in the logging
 				//An array of all media objects for this category. The default is pic1-pic200.jpg
 				mediaArray : [
 					{image : 'BM1.jpg'}, 
@@ -108,8 +108,7 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm1/jamp.js'], function(APIConstr
 					{image : 'BM27.jpg'}, 
 					{image : 'BM28.jpg'},
 					{image : 'BM29.jpg'}, 
-					{image : 'BM30.jpg'},
-					{image : 'BM31.jpg'}] 
+					{image : 'BM30.jpg'}] 
 			},
 				{
 				nameForLogging : 'BMS',  //Will be used in the logging
@@ -144,8 +143,7 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm1/jamp.js'], function(APIConstr
 					{image : 'BMS27.jpg'}, 
 					{image : 'BMS28.jpg'},
 					{image : 'BMS29.jpg'}, 
-					{image : 'BMS30.jpg'},
-					{image : 'BMS31.jpg'}] 
+					{image : 'BMS30.jpg'}] 
 								
 			},
 			{
@@ -181,12 +179,11 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm1/jamp.js'], function(APIConstr
 					{image : 'WM27.jpg'}, 
 					{image : 'WM28.jpg'},
 					{image : 'WM29.jpg'}, 
-					{image : 'WM30.jpg'},
-					{image : 'WM31.jpg'}] 
+					{image : 'WM30.jpg'}] 
 								
 			},
 			{
-				nameForLogging : 'WM',  //Will be used in the logging
+				nameForLogging : 'WMS',  //Will be used in the logging
 				//An array of all media objects for this category. The default is pic1-pic200.jpg
 				mediaArray : [
 					{image : 'WMS1.jpg'}, 
@@ -218,8 +215,7 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm1/jamp.js'], function(APIConstr
 					{image : 'WMS27.jpg'}, 
 					{image : 'WMS28.jpg'},
 					{image : 'WMS29.jpg'}, 
-					{image : 'WMS30.jpg'},
-					{image : 'WMS31.jpg'}]
+					{image : 'WMS30.jpg'}]
 								
 			},
 			],
