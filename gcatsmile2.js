@@ -15,7 +15,7 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm1/jamp.js'], function(APIConstr
 		leftKey : 'e',
 
 		base_url : {//Where are your images at?
-				image : 'https://rjrydell.github.io/ddm1/images'
+				image : 'https://osf.io/8gy4w/files/osfstorage'
 			}, 
 		
 		targetCat : 'SECOND word', //The name of the targets (used in the instructions)
