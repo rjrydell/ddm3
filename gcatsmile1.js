@@ -2,7 +2,7 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm3/jamp.js'], function(APIConstr
 
 	var API = new APIConstructor();
 	
-	
+
 	return ampExtension({
 
 		trialsInBlock : [60, 60, 60, 60, 60, 60, 60, 6o], //Number of trials in each block 
