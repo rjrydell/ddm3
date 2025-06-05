@@ -71,8 +71,7 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm3/jamp.js'], function(APIConstr
 					{word : '+'},
 					{word : '+'},
 					{word : '+'}]
-			}
-		],
+		},
 
 		targetCats :  [
 				{
