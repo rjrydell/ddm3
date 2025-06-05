@@ -146,7 +146,7 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm3/jamp.js'], function(APIConstr
 					{image : 'BM30.jpg'}]				
 			},
 			{
-				nameForLogging : 'WF',  //Will be used in the logging
+				nameForLogging : 'WMS',  //Will be used in the logging
 				//An array of all media objects for this category. The default is pic1-pic200.jpg
 				mediaArray : [
 					{image : 'WMS1.jpg'}, 
