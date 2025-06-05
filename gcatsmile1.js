@@ -2,14 +2,14 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm3/jamp.js'], function(APIConstr
 
 	var API = new APIConstructor();
 	
-
+	
 	return ampExtension({
 
-		trialsInBlock : [60, 60, 60, 60, 60, 60, 60, 6o], //Number of trials in each block 
+		trialsInBlock : [60, 60, 60, 60, 60, 60, 60, 60], //Number of trials in each block 
 		trialsInExample : 5, //Change to 0 if you don't want an example block
 	
-		sortingLabel1 : 'Untrustworthy', //Response is coded as 0. 
-		sortingLabel2 : 'Trustworthy',  //Response is coded as 1.
+		sortingLabel1 : 'Trustworthy', //Response is coded as 0. 
+		sortingLabel2 : 'Untrustworthy',  //Response is coded as 1.
 		
 		rightKey : 'i', 
 		leftKey : 'e',
@@ -71,44 +71,10 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm3/jamp.js'], function(APIConstr
 					{word : '+'},
 					{word : '+'},
 					{word : '+'}]
-		},
+			}
+		],
 
 		targetCats :  [
-				{
-				nameForLogging : 'BM',  //Will be used in the logging
-				//An array of all media objects for this category. The default is pic1-pic200.jpg
-				mediaArray : [
-					{image : 'BM1.jpg'}, 
-					{image : 'BM2.jpg'},
-					{image : 'BM3.jpg'}, 
-					{image : 'BM4.jpg'},
-					{image : 'BM5.jpg'}, 
-					{image : 'BM6.jpg'},
-					{image : 'BM7.jpg'}, 
-					{image : 'BM8.jpg'},
-					{image : 'BM9.jpg'}, 
-					{image : 'BM10.jpg'},
-					{image : 'BM11.jpg'}, 
-					{image : 'BM12.jpg'},
-					{image : 'BM13.jpg'}, 
-					{image : 'BM14.jpg'},
-					{image : 'BM15.jpg'}, 
-					{image : 'BM16.jpg'},
-					{image : 'BM17.jpg'}, 
-					{image : 'BM18.jpg'},
-					{image : 'BM19.jpg'}, 
-					{image : 'BM20.jpg'},
-					{image : 'BM21.jpg'}, 
-					{image : 'BM22.jpg'},
-					{image : 'BM23.jpg'}, 
-					{image : 'BM24.jpg'},
-					{image : 'BM25.jpg'}, 
-					{image : 'BM26.jpg'},
-					{image : 'BM27.jpg'}, 
-					{image : 'BM28.jpg'},
-					{image : 'BM29.jpg'}, 
-					{image : 'BM30.jpg'}] 
-			},
 				{
 				nameForLogging : 'BMS',  //Will be used in the logging
 				//An array of all media objects for this category. The default is pic1-pic200.jpg
@@ -142,8 +108,77 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm3/jamp.js'], function(APIConstr
 					{image : 'BMS27.jpg'}, 
 					{image : 'BMS28.jpg'},
 					{image : 'BMS29.jpg'}, 
-					{image : 'BMS30.jpg'}] 
-								
+					{image : 'BMS30.jpg'}]				
+			},
+				{
+				nameForLogging : 'BM',  //Will be used in the logging
+				//An array of all media objects for this category. The default is pic1-pic200.jpg
+				mediaArray : [
+					{image : 'BM1.jpg'}, 
+					{image : 'BM2.jpg'},
+					{image : 'BM3.jpg'}, 
+					{image : 'BM4.jpg'},
+					{image : 'BM5.jpg'}, 
+					{image : 'BM6.jpg'},
+					{image : 'BM7.jpg'}, 
+					{image : 'BM8.jpg'},
+					{image : 'BM9.jpg'}, 
+					{image : 'BM10.jpg'},
+					{image : 'BM11.jpg'}, 
+					{image : 'BM12.jpg'},
+					{image : 'BM13.jpg'}, 
+					{image : 'BM14.jpg'},
+					{image : 'BM15.jpg'}, 
+					{image : 'BM16.jpg'},
+					{image : 'BM17.jpg'}, 
+					{image : 'BM18.jpg'},
+					{image : 'BM19.jpg'}, 
+					{image : 'BM20.jpg'},
+					{image : 'BM21.jpg'}, 
+					{image : 'BM22.jpg'},
+					{image : 'BM23.jpg'}, 
+					{image : 'BM24.jpg'},
+					{image : 'BM25.jpg'}, 
+					{image : 'BM26.jpg'},
+					{image : 'BM27.jpg'}, 
+					{image : 'BM28.jpg'},
+					{image : 'BM29.jpg'}, 
+					{image : 'BM30.jpg'}]				
+			},
+			{
+				nameForLogging : 'WF',  //Will be used in the logging
+				//An array of all media objects for this category. The default is pic1-pic200.jpg
+				mediaArray : [
+					{image : 'WMS1.jpg'}, 
+					{image : 'WMS2.jpg'},
+					{image : 'WMS3.jpg'}, 
+					{image : 'WMS4.jpg'},
+					{image : 'WMS5.jpg'}, 
+					{image : 'WMS6.jpg'},
+					{image : 'WMS7.jpg'}, 
+					{image : 'WMS8.jpg'},
+					{image : 'WMS9.jpg'}, 
+					{image : 'WMS10.jpg'},
+					{image : 'WMS11.jpg'}, 
+					{image : 'WMS12.jpg'},
+					{image : 'WMS13.jpg'}, 
+					{image : 'WMS14.jpg'},
+					{image : 'WMS15.jpg'}, 
+					{image : 'WMS16.jpg'},
+					{image : 'WMS17.jpg'}, 
+					{image : 'WMS18.jpg'},
+					{image : 'WMS19.jpg'}, 
+					{image : 'WMS20.jpg'},
+					{image : 'WMS21.jpg'}, 
+					{image : 'WMS22.jpg'},
+					{image : 'WMS23.jpg'}, 
+					{image : 'WMS24.jpg'},
+					{image : 'WMS25.jpg'}, 
+					{image : 'WMS26.jpg'},
+					{image : 'WMS27.jpg'}, 
+					{image : 'WMS28.jpg'},
+					{image : 'WMS29.jpg'}, 
+					{image : 'WMS30.jpg'}]				
 			},
 			{
 				nameForLogging : 'WM',  //Will be used in the logging
@@ -178,44 +213,7 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm3/jamp.js'], function(APIConstr
 					{image : 'WM27.jpg'}, 
 					{image : 'WM28.jpg'},
 					{image : 'WM29.jpg'}, 
-					{image : 'WM30.jpg'}] 
-								
-			},
-			{
-				nameForLogging : 'WMS',  //Will be used in the logging
-				//An array of all media objects for this category. The default is pic1-pic200.jpg
-				mediaArray : [
-					{image : 'WMS1.jpg'}, 
-					{image : 'WMS2.jpg'},
-					{image : 'WMS3.jpg'}, 
-					{image : 'WMS4.jpg'},
-					{image : 'WMS5.jpg'}, 
-					{image : 'WMS6.jpg'},
-					{image : 'WMS7.jpg'}, 
-					{image : 'WMS8.jpg'},
-					{image : 'WMS9.jpg'}, 
-					{image : 'WMS10.jpg'},
-					{image : 'WMS11.jpg'}, 
-					{image : 'WMS12.jpg'},
-					{image : 'WMS13.jpg'}, 
-					{image : 'WMS14.jpg'},
-					{image : 'WMS15.jpg'}, 
-					{image : 'WMS16.jpg'},
-					{image : 'WMS17.jpg'}, 
-					{image : 'WMS18.jpg'},
-					{image : 'WMS19.jpg'}, 
-					{image : 'WMS20.jpg'},
-					{image : 'WMS21.jpg'}, 
-					{image : 'WMS22.jpg'},
-					{image : 'WMS23.jpg'}, 
-					{image : 'WMS24.jpg'},
-					{image : 'WMS25.jpg'}, 
-					{image : 'WMS26.jpg'},
-					{image : 'WMS27.jpg'}, 
-					{image : 'WMS28.jpg'},
-					{image : 'WMS29.jpg'}, 
-					{image : 'WMS30.jpg'}]
-								
+					{image : 'WM30.jpg'}]				
 			},
 			],
 
@@ -312,10 +310,10 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm3/jamp.js'], function(APIConstr
 			//An array of all media objects for this category.
 			mediaArray : [
 				{image : 'WM4.jpg'}, 
-				{image : 'WMS4.jpg'},
+				{image : 'WM9.jpg'},
 				{image : 'BM4.jpg'},
-				{image: 'BMS4.jpg'},
-				{image: 'WM6.jpg'}
+				{image: 'BMS5.jpg'},
+				{image: 'WMS5.jpg'}
 			]
 		},
 
@@ -327,5 +325,3 @@ define(['pipAPI', 'https://rjrydell.github.io/ddm3/jamp.js'], function(APIConstr
 
 		// ****** END EXAMPLE ROUND ********
 		
-	});
-});
